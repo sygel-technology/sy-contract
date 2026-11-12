@@ -1,0 +1,3 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_contract_purchase_wizard_user,contract.purchase.wizard.user,sy_contract_purchase.model_contract_purchase_wizard,purchase.group_purchase_user,1,1,1,1
+access_contract_purchase_wizard_line_user,contract.purchase.wizard.line.user,sy_contract_purchase.model_contract_purchase_wizard_line,purchase.group_purchase_user,1,1,1,1
