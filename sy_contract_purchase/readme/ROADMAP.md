@@ -1,0 +1,2 @@
+- Add navigation from purchase contracts to their originating purchase orders, allowing users to access the original purchase order directly from the contract form.
+- Consider unifying the button labels in the future. Currently, "Generate Agreement" opens the wizard from the purchase order, as specified in the original requirements, while "Generate Contract" confirms the creation of the contract from the wizard.

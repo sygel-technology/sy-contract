@@ -1,0 +1,318 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* sy_contract_purchase
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-12 10:12+0000\n"
+"PO-Revision-Date: 2026-11-12 10:12+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__available_quantity
+msgid "Available Quantity"
+msgstr "Quantitat disponible"
+
+#. module: sy_contract_purchase
+#: model_terms:ir.ui.view,arch_db:sy_contract_purchase.contract_purchase_wizard_form_view
+msgid "Cancel"
+msgstr "Cancel·lar"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__company_id
+msgid "Company"
+msgstr "Companyia"
+
+#. module: sy_contract_purchase
+#: model:ir.model,name:sy_contract_purchase.model_contract_contract
+msgid "Contract"
+msgstr "Contracte"
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/wizard/contract_purchase_wizard.py:0
+msgid "Contract - %s"
+msgstr "Contracte - %s"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_purchase_order__contract_count
+msgid "Contract Count"
+msgstr "Nombre de contractes"
+
+#. module: sy_contract_purchase
+#: model:ir.model,name:sy_contract_purchase.model_contract_line
+msgid "Contract Line"
+msgstr "Línia de contracte"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__line_ids
+msgid "Contract Lines"
+msgstr "Línies de contracte"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__name
+msgid "Contract Name"
+msgstr "Nom del contracte"
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/models/purchase_order.py:0
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_purchase_order__contract_ids
+#: model_terms:ir.ui.view,arch_db:sy_contract_purchase.purchase_order_form_view
+msgid "Contracts"
+msgstr "Contractes"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__create_uid
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__create_uid
+msgid "Created by"
+msgstr "Creat per"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__create_date
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__create_date
+msgid "Created on"
+msgstr "Creat el"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields.selection,name:sy_contract_purchase.selection__contract_purchase_wizard__recurring_rule_type__daily
+msgid "Day(s)"
+msgstr "Dia(es)"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__name
+msgid "Description"
+msgstr "Descripció"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__display_name
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__display_name
+msgid "Display Name"
+msgstr "Nom mostrat"
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/models/purchase_order.py:0
+#: model_terms:ir.ui.view,arch_db:sy_contract_purchase.contract_purchase_wizard_form_view
+#: model_terms:ir.ui.view,arch_db:sy_contract_purchase.purchase_order_form_view
+msgid "Generate Agreement"
+msgstr "Generar contracte"
+
+#. module: sy_contract_purchase
+#: model:ir.model,name:sy_contract_purchase.model_contract_purchase_wizard
+msgid "Generate Purchase Contract Wizard"
+msgstr "Assistent per generar contractes de compra"
+
+#. module: sy_contract_purchase
+#: model:ir.model,name:sy_contract_purchase.model_contract_purchase_wizard_line
+msgid "Generate Purchase Contract Wizard Line"
+msgstr "Línia de l’assistent per generar contractes de compra"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__id
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__id
+msgid "ID"
+msgstr "ID"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__recurring_interval
+msgid "Invoice Every"
+msgstr "Facturar cada"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__recurring_invoicing_type
+msgid "Invoicing Type"
+msgstr "Tipus de facturació"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__write_uid
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__write_uid
+msgid "Last Updated by"
+msgstr "Última actualització per"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__write_date
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__write_date
+msgid "Last Updated on"
+msgstr "Última actualització el"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields.selection,name:sy_contract_purchase.selection__contract_purchase_wizard__recurring_rule_type__monthly
+msgid "Month(s)"
+msgstr "Mes(os)"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields.selection,name:sy_contract_purchase.selection__contract_purchase_wizard__recurring_rule_type__monthlylastday
+msgid "Month(s) last day"
+msgstr "Últim dia de cada mes"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields.selection,name:sy_contract_purchase.selection__contract_purchase_wizard__recurring_invoicing_type__post-paid
+msgid "Post-paid"
+msgstr "Postpagament"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields.selection,name:sy_contract_purchase.selection__contract_purchase_wizard__recurring_invoicing_type__pre-paid
+msgid "Pre-paid"
+msgstr "Prepagament"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__product_id
+msgid "Product"
+msgstr "Producte"
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/wizard/contract_purchase_wizard.py:0
+msgid "Purchase Contract"
+msgstr "Contracte de compra"
+
+#. module: sy_contract_purchase
+#: model:ir.model,name:sy_contract_purchase.model_purchase_order
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_contract__purchase_order_id
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__purchase_order_id
+msgid "Purchase Order"
+msgstr "Comanda de compra"
+
+#. module: sy_contract_purchase
+#: model:ir.model,name:sy_contract_purchase.model_purchase_order_line
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_line__purchase_line_id
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__purchase_line_id
+msgid "Purchase Order Line"
+msgstr "Línia de comanda de compra"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__quantity
+msgid "Quantity"
+msgstr "Quantitat"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields.selection,name:sy_contract_purchase.selection__contract_purchase_wizard__recurring_rule_type__quarterly
+msgid "Quarter(s)"
+msgstr "Trimestre(s)"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__recurring_rule_type
+#: model_terms:ir.ui.view,arch_db:sy_contract_purchase.contract_purchase_wizard_form_view
+msgid "Recurrence"
+msgstr "Recurrència"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__user_id
+msgid "Responsible"
+msgstr "Responsable"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields.selection,name:sy_contract_purchase.selection__contract_purchase_wizard__recurring_rule_type__semesterly
+msgid "Semester(s)"
+msgstr "Semestre(s)"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__date_start
+msgid "Start Date"
+msgstr "Data d’inici"
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/wizard/contract_purchase_wizard_line.py:0
+msgid "The quantity cannot exceed the available quantity."
+msgstr "La quantitat no pot superar la quantitat disponible."
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/wizard/contract_purchase_wizard.py:0
+msgid ""
+"The quantity for product '%s' exceeds the available quantity or is not "
+"valid."
+msgstr "La quantitat del producte '%s' supera la quantitat disponible o no és vàlida."
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/wizard/contract_purchase_wizard_line.py:0
+msgid "The quantity must be greater than zero."
+msgstr "La quantitat ha de ser superior a zero."
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/models/purchase_order_line.py:0
+msgid ""
+"The quantity ordered for product '%s' cannot be less than the total "
+"contracted quantity."
+msgstr "La quantitat demanada del producte '%s' no pot ser inferior a la quantitat total contractada."
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/wizard/contract_purchase_wizard.py:0
+msgid "The recurring interval must be greater than zero."
+msgstr "L’interval de recurrència ha de ser superior a zero."
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/wizard/contract_purchase_wizard.py:0
+msgid "The same purchase order line cannot be selected more than once."
+msgstr "No es pot seleccionar la mateixa línia de la comanda de compra més d’una vegada."
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/wizard/contract_purchase_wizard.py:0
+msgid ""
+"The selected purchase order line does not belong to the purchase order."
+msgstr "La línia seleccionada no pertany a la comanda de compra."
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/models/contract_line.py:0
+msgid ""
+"The total contracted quantity for product '%s' cannot exceed the quantity "
+"ordered."
+msgstr "La quantitat total contractada del producte '%s' no pot superar la quantitat demanada."
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/models/purchase_order.py:0
+msgid ""
+"There are no remaining quantities available to generate a new contract."
+msgstr "No queden quantitats disponibles per generar un contracte nou."
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__price_unit
+msgid "Unit Price"
+msgstr "Preu unitari"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__product_uom_id
+msgid "Unit of Measure"
+msgstr "Unitat de mesura"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard__partner_id
+msgid "Vendor"
+msgstr "Proveïdor"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields.selection,name:sy_contract_purchase.selection__contract_purchase_wizard__recurring_rule_type__weekly
+msgid "Week(s)"
+msgstr "Setmana(es)"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields,field_description:sy_contract_purchase.field_contract_purchase_wizard_line__wizard_id
+msgid "Wizard"
+msgstr "Assistent"
+
+#. module: sy_contract_purchase
+#: model:ir.model.fields.selection,name:sy_contract_purchase.selection__contract_purchase_wizard__recurring_rule_type__yearly
+msgid "Year(s)"
+msgstr "Any(s)"
+
+#. module: sy_contract_purchase
+#. odoo-python
+#: code:addons/sy_contract_purchase/wizard/contract_purchase_wizard.py:0
+msgid "You must select at least one line."
+msgstr "Heu de seleccionar almenys una línia."

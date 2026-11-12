@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- Copyright 2026 Ángel Rivas <angel.rivas@sygel.es>
+     License AGPL-3.0 or later (https://www.gnu.org/licenses/agpl). -->
+<odoo>
+    <record id="contract_purchase_wizard_form_view" model="ir.ui.view">
+        <field name="name">contract.purchase.wizard.form</field>
+        <field name="model">contract.purchase.wizard</field>
+        <field name="arch" type="xml">
+            <form string="Generate Agreement">
+                <group>
+                    <group>
+                        <field name="purchase_order_id" />
+                        <field name="partner_id" />
+                        <field name="company_id" groups="base.group_multi_company" />
+                        <field name="name" />
+                        <field name="user_id" />
+                    </group>
+                    <group string="Recurrence">
+                        <field name="date_start" />
+                        <field name="recurring_rule_type" />
+                        <field name="recurring_interval" />
+                        <field name="recurring_invoicing_type" />
+                    </group>
+                </group>
+                <field name="line_ids" nolabel="1">
+                    <list editable="bottom" create="0">
+                        <field
+                            name="purchase_line_id"
+                            column_invisible="True"
+                            force_save="1"
+                        />
+                        <field name="product_id" force_save="1" />
+                        <field name="name" />
+                        <field name="available_quantity" force_save="1" />
+                        <field name="quantity" />
+                        <field name="product_uom_id" force_save="1" />
+                        <field name="price_unit" />
+                    </list>
+                </field>
+                <footer>
+                    <button
+                        name="action_generate_contract"
+                        string="Generate Agreement"
+                        type="object"
+                        class="btn-primary"
+                    />
+                    <button string="Cancel" special="cancel" class="btn-secondary" />
+                </footer>
+            </form>
+        </field>
+    </record>
+</odoo>
